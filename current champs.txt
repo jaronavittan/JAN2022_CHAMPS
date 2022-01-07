@@ -1,0 +1,33 @@
+CREATE TABLE current_champs (
+  id_list INTEGER PRIMARY KEY,
+  weight_class VARCHAR,
+  name VARCHAR,
+  country VARCHAR
+);
+
+INSERT INTO current_champs (id_list, weight_class, name, country)
+VALUES (1, 'Heavyweight', 'Francis Ngannou', 'Cameroon');
+
+INSERT INTO current_champs (id_list, weight_class, name, country)
+VALUES (2, 'Light_Heavyweight', 'Glover Teixiera', 'Brazil');
+
+INSERT INTO current_champs (id_list, weight_class, name, country)
+VALUES (3, 'Middleweight', 'Israel Adesanya', 'New Zealand');
+
+INSERT INTO current_champs (id_list, weight_class, name, country)
+VALUES (4, 'Welterweight', 'Marty Usman', 'Nigeria');
+
+INSERT INTO current_champs (id_list, weight_class, name, country)
+VALUES (5, 'Lightweight', 'Charles Oliviera', 'Brazil');
+
+INSERT INTO current_champs (id_list, weight_class, name, country)
+VALUES (6, 'Featherweight', 'Alexander volkanowski', 'Australia');
+
+INSERT INTO current_champs (id_list, weight_class, name, country)
+VALUES (7, 'Bantamweight','Petr Yan', 'Russia');
+
+INSERT INTO current_champs (id_list, weight_class, name, country)
+VALUES (8, 'Flyweight', 'Brandon Moreno', 'Mexico');
+
+SELECT *
+FROM current_champs
